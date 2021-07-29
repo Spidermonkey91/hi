@@ -1,0 +1,83 @@
+
+div
+{
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+}
+h1{
+    color:palegreen;
+    text-align: center;
+    
+}
+hr{
+    line-height: solid;
+}
+a[href="https://www.youtube.com/channel/UC1tm3qWHbjYgncDLFfOfkRg"]
+{
+    Color: Purple;
+    Margin: auto;
+}
+
+a:hover[href="https://www.youtube.com/channel/UC1tm3qWHbjYgncDLFfOfkRg"]
+{
+color:aqua;
+
+}
+a[href="https://Instagram.com/animeandbeyond7"]
+{
+    Color: Black;
+    margin:auto;
+}
+
+a:hover[href="https://Instagram.com/animeandbeyond7"]
+{
+    color: green;
+}
+a[href="https://facebook.com/animeandbeyond7"]
+{
+    color:blue;
+    margin: auto;
+}
+ a:hover[href="https://facebook.com/animeandbeyond7"]
+ {
+     color: orange;
+ }
+
+ img {
+    display: flex;
+    padding-left: 650px;
+
+}
+
+.favorite {
+    
+    Margin:auto;
+}
+
+table{
+border:2px solid black;
+margin:auto;
+border-collapse: collapse;
+}
+td, th{
+    border:2-x solid black;
+    padding: 5px;
+}
+
+th{
+
+    color: slateblue;
+    text-align: center;
+
+}
+
+td{
+    color: darkcyan;
+    text-align: center;
+}
+
+ul > li 
+{
+    color: black;
+}
