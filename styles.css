@@ -1,4 +1,6 @@
-
+body{
+    background-color: sandybrown;
+}
 div
 {
     font-weight: bold;
@@ -6,12 +8,17 @@ div
     text-align: center;
 }
 h1{
-    color:palegreen;
+    color:black;
     text-align: center;
     
 }
-hr{
-    line-height: solid;
+
+hr
+{
+    display: block;
+    border-style: double;
+    border-width: 10px;
+    color:solid black;
 }
 a[href="https://www.youtube.com/channel/UC1tm3qWHbjYgncDLFfOfkRg"]
 {
@@ -26,33 +33,43 @@ color:aqua;
 }
 a[href="https://Instagram.com/animeandbeyond7"]
 {
-    Color: Black;
+    Color:solid Black;
     margin:auto;
 }
 
 a:hover[href="https://Instagram.com/animeandbeyond7"]
 {
-    color: green;
+    color: maroon;
 }
 a[href="https://facebook.com/animeandbeyond7"]
 {
-    color:blue;
+    color: blue;
     margin: auto;
 }
  a:hover[href="https://facebook.com/animeandbeyond7"]
  {
-     color: orange;
+     color: yellow;
  }
 
  img {
+     
     display: flex;
-    padding-left: 650px;
+    flex-wrap: wrap;
+    padding-left: 400px;
+    padding-bottom: 100px;
 
 }
 
-.favorite {
-    
-    Margin:auto;
+#favorite {
+    flex-wrap: wrap;
+    display: flex;
+    padding-left:400px;
+}
+
+#favorite > ol
+{
+    text-align: left;
+    padding-left: 240px;
 }
 
 table{
@@ -61,7 +78,7 @@ margin:auto;
 border-collapse: collapse;
 }
 td, th{
-    border:2-x solid black;
+    border:2px solid black;
     padding: 5px;
 }
 
@@ -73,11 +90,12 @@ th{
 }
 
 td{
-    color: darkcyan;
+    color: black;
     text-align: center;
 }
 
-ul > li 
+ul 
 {
-    color: black;
+    font-size: 20px;
+    
 }
